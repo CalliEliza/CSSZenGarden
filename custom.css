@@ -121,6 +121,10 @@ header h2 {
     color: #453b33;
 }
 
+.participation h3:hover {
+    letter-spacing: .5em;
+}
+
 .sidebar {
     float: left;
     clear: both;
@@ -203,7 +207,6 @@ footer a {
     color: #75545f;
     margin: 1em;
     text-decoration: none;
-    border-bottom: 3px dashed;
     letter-spacing: .15em;
     font-size: 1.5em;
     
