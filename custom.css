@@ -1,0 +1,220 @@
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: #dedae3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 { margin: 0; }
+h2 { margin: 0 0 40px 0; }
+
+header h1 {
+    font-weight: 300;
+    padding: 0.5em 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4em;
+    display: inline-block;
+    background-color: #e3bdc8;
+    color: #6b6270;
+}
+
+header h2 {
+    float: left;
+    clear: both;
+    background-color: #e3cc9d;
+    color: #3880ad;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: block;
+    font-size: 8em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1em;
+    font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
+    box-sizing: border-box;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.summary p:first-child {
+    font-weight: 300;
+    padding: 0.5em 1em;
+    letter-spacing: 1px;
+    width: 15em;
+    margin-bottom: 2em;
+    line-height: 2em;
+    background-color: #c5e0ce;
+    color: #453b33;
+    float: left;
+}
+
+.summary p:last-child {
+    border: 3px solid #3c6178;
+    float: right;
+    padding: .5em 1em;
+    font-family: "Raleway";
+    font-weight: 700;
+    letter-spacing: .5px;
+    margin-left: 10em;
+    color: #0e1721;
+}
+
+.summary p a {
+    text-decoration: none;
+    color: #053080;
+}
+
+.summary p a:hover {
+    text-decoration: none;
+    color: #a5adc9;
+}
+
+.preamble h3 {
+    padding-bottom: .5em;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.preamble {
+    margin-top: 5.5em; 
+    margin-bottom: 1em;
+    padding: 1.5em .5em;
+    border-top: 2px solid #ad4244;
+    margin-left: 1em;
+    margin-right: 1em;
+    letter-spacing: 1px;
+    clear: both;
+}
+
+.explanation {
+    background-color: #e3cc9d;
+    float: left;
+    padding: 0.5em 1em;
+    letter-spacing: 1px;
+    width: 15em;
+    margin-bottom: 2em;
+    line-height: 2em;
+    color: #453b33;
+     margin-left: 7em;
+}
+
+.explanation h3:hover {
+    letter-spacing: .05em;
+}
+
+.participation {
+    background-color: #a5adc9;
+    float: left;
+    padding: 0.5em 1em;
+    letter-spacing: 1px;
+    width: 15em;
+    margin-bottom: 2em;
+    margin-left: 7em;
+    line-height: 2em;
+    color: #453b33;
+}
+
+.sidebar {
+    float: left;
+    clear: both;
+    padding: 1.5em 0 0 1.5em;
+    margin: -55em 0 0 2em;
+    display: block;
+    border: 5px solid #a5adc9;
+    background-color: #3c6178;
+    opacity: .85;
+    color: #d3e6e8;
+    line-height: 2em;
+}
+
+.sidebar a {
+    color: #faf2e8;
+    text-decoration: none; 
+}
+
+.sidebar a:hover {
+    color: #b32e2e;
+    text-decoration: none; 
+    font-weight: 500;
+}
+
+.select:hover {
+    letter-spacing: .25em;
+    color: #e6ded6;
+}
+
+.requirements {
+    float: right;
+}
+
+.benefits {
+    text-align: center;
+    letter-spacing: .5px;
+    line-height: 2em;
+    background-color: #e4e8ed;
+    padding: 1.5em .5em 1.5em .5em;
+    margin: -9em 0 2em 5em;
+    display: block;
+    width: 15em;
+    float: left;
+}
+
+.benefits h3:hover {
+    letter-spacing: .5em;
+}
+
+.requirements {
+    width: 30em;
+    margin: 0 2em 0 0;
+    padding: .5em 1em .5em 1em;
+    line-height: 2.5em;
+    background-color: #db6353;
+    opacity: .75;
+}
+
+.requirements h3 {
+    font-weight: 900;
+    color: #6b6270;
+}
+
+.requirements h3:hover {
+    letter-spacing: .5em;
+    font-weight: 900;
+    color: #6b6270;
+}
+
+footer {
+    float: right;
+    clear: both;
+    margin: 4em 0 0 0;
+    padding: 1em 20em 3em 1.5em;
+    background-color: #9ba3b5;
+}
+
+footer a {
+    padding: 0 0 .25em 0;
+    color: #75545f;
+    margin: 1em;
+    text-decoration: none;
+    border-bottom: 3px dashed;
+    letter-spacing: .15em;
+    font-size: 1.5em;
+    
+}
+
+footer a:hover {
+    color: #d45c37;
+    margin: 1em;
+    text-decoration: none;
+    border-bottom: 3px dashed;
+    letter-spacing: .15em;
+    font-size: 1.5em;
+    
+}
